@@ -1,0 +1,54 @@
+.mainDiv{
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 250px;
+  background-color: yellow;
+  position: relative;
+  border: 2px solid black;
+}
+.miniDiv{
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  border-radius: 35px;
+  margin-top: 20px;
+  margin-left: 215px;
+  float: left;
+}
+.blockDiv{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
+.numbers{
+  font-size: 34px;
+  margin: 0;
+  text-align: center;
+  margin-top: calc(35px - 0.6em);
+}
+.secArrow{
+  position: absolute;
+  width: 2px;
+  height: 200px;
+  background-color: black;
+  margin-left: 249px;
+  margin-top: 50px;
+}
+.minArrow{
+  position: absolute;
+  width: 6px;
+  height: 170px;
+  background-color: black;
+  margin-left: 247px;
+  margin-top: 80px;
+}
+.hourArrow{
+  position: absolute;
+  width: 10px;
+  height: 150px;
+  background-color: black;
+  margin-left: 245px;
+  margin-top: 100px;
+}
